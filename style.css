@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+p{
+    font-size:12pt;
+}
+h4{
+    border-bottom: 1px dashed #7e7e7e;
+    margin: 0;
+    padding: 0;
+}
+.button{
+    text-transform: none;
+}
+.wordgreen{
+    color: #009688;
+}
+.wrapper{
+    width:980px;
+    margin: 0 auto;
+}
+#navigation{
+    background: #fff;
+    height:48px;
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index: 9999;
+}
+#navigation ul{
+    list-style: none;
+    float:right;
+    padding: 0;
+    margin: 0;
+  
+}
+#navigation ul li{
+    float:left;
+    padding: 12px 0;
+}
+#navigation ul li a,
+#navigation ul li a:link,
+#navigation ul li a:visited{
+    color:#000;
+    text-decoration: none;
+    padding: 15px 10px;
+    
+}
+#navigation ul li a:hover{
+
+    color:#009688;
+}
+#navigation .logo{
+    height:40px;
+    padding: 3px;
+}
+#banner{
+    height:350px;
+    margin-top: 48px;
+    padding: 40px 0;
+     background: linear-gradient(#fff, #d3d3d3);
+}
+#banner .bannerLeft{
+    float:left;
+    width:500px;
+}
+#banner .bannerRight{
+    float:right;
+}
+.demo-card-wide.mdl-card {
+  width: 412px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('images/greenmill.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+#jobs{
+    padding: 30px 0;
+    margin: 10px;
+    height: auto;
+    overflow: hidden;
+}
+#jobs .title{
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+#jobs .title h4{
+    border:0;
+    
+}
+#jobs .jobsLeft{
+    float:left;
+    width:480px;
+    padding: 5px;
+    text-align: right;
+    border-right: 1px solid #7e7e7e;
+}
+#jobs .jobsRight{
+    padding: 5px;
+    float:right;
+    width:478px; 
+}
+#jobs .jobL:nth-of-type(1){
+    margin-top: 0px;
+}
+#jobs .jobR,
+#jobs .jobL{
+    margin-top: 180px;
+    padding-bottom: 10px;
+}
+#jobs h5{
+    padding: 0;
+    margin: 0;
+    color:#009688;
+    font-size: 13pt;
+    text-decoration: underline;
+    
+}
+.jobsBtn{
+  
+    text-align: center;
+    margin: 2px;
+    padding: 2px 5px;
+    color: #fff;
+    width:100px;
+    background: #009688;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.jobsBtn:hover{
+    color: #009688;
+    background: #fff;
+    border-bottom:1px solid #009688;
+    border-radius: 25px;
+}
+#jobs p{
+    margin:0;
+}
+#jobs .jobL a,
+#jobs .jobR a{
+    text-decoration: none;
+}
+#jobs .jobL::nth-last-of-type(1){
+    margin:0 0 30px 0;
+}
+
+#cooperation{
+    background: #d3d3d3;
+    padding: 40px 0;
+
+    overflow: hidden;
+  
+}
+#cooperation .cooperationL{
+    float:left;
+    width:400px;
+}
+#cooperation .cooperationR{
+    float:right;
+    width:400px;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:url('images/questionmark.jpg') center center no-repeat #46B6AC;
+}
+#bussines{
+    background: #fff;
+    height:400px;
+    color:#009688;
+    padding: 40px 0;
+    overflow: hidden;
+}
+#bussines .bussinesL{
+    float:left;
+    width:500px;
+}
+#bussines .bussinesL a{ 
+    text-decoration: none;
+}
+#bussines .bussinesL p{
+    padding: 10px 0;
+}
+#bussines .bussinesR{
+    float:right;
+}
+#bussines .bussinesR img{
+    width:300px;
+}
+#footer{
+
+    background: #009688;
+    color: #fff;
+    padding: 20px 0;
+}
+#footer .center{
+    text-align: center;
+    padding: 20px;
+}
+#footer .center img{
+    width:50px;
+}
+#footer .social{
+    width:30px;
+    padding: 0 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+#footer .social:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+
+
+
